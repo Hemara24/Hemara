@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TuIVutbKLYxhViEwJTvp-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Brain Tumor Dataset&lt;div&gt;(BraTS 2024 Africa)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="100" y="40" as="geometry" />
+        <mxCell id="TuIVutbKLYxhViEwJTvp-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Brain Tumor Dataset&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;(BraTS 2024 Africa)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="90" y="30" as="geometry" />
         </mxCell>
         <mxCell id="TuIVutbKLYxhViEwJTvp-2" edge="1" parent="1" source="TuIVutbKLYxhViEwJTvp-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -13,10 +13,10 @@
             <mxPoint x="160" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pre-process data&lt;div&gt;(nibabel)&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Pre-process data&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;(nibabel)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="100" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;ROI Extraction&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;(YOLO image crop)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;ROI Extraction&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;(YOLO image crop)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="280" as="geometry" />
         </mxCell>
         <mxCell id="TuIVutbKLYxhViEwJTvp-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -37,10 +37,10 @@
             <mxPoint x="439.5" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Sparsity Simulation&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&amp;nbsp;(Low-Field MRI)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Sparsity Simulation&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;(Low-Field MRI)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="100" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Visualization&lt;div&gt;(2D slices)&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Visualization&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;(2D slices)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="200" as="geometry" />
         </mxCell>
         <mxCell id="TuIVutbKLYxhViEwJTvp-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -49,13 +49,13 @@
             <mxPoint x="240" y="309.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;Sparse Graph Construction&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;(Cropped ROI)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Sparse Graph Construction&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;(Cropped ROI)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;nbsp;GCN Model Training (SGS-Net)" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;GCN Model Training&lt;/font&gt; &lt;font style=&quot;font-size: 14px;&quot;&gt;(SGS-Net)&lt;/font&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="380" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;High-Fidelity 3D Reconstruction&lt;/span&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;High-Fidelity 3D Reconstruction&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="380" y="200" as="geometry" />
         </mxCell>
         <mxCell id="TuIVutbKLYxhViEwJTvp-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -64,7 +64,7 @@
             <mxPoint x="299.5" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;Evaluation&lt;/span&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&amp;nbsp;(SSIM, PSNR, DSC)&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Evaluation&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;(SSIM, PSNR, DSC)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="380" y="280" as="geometry" />
         </mxCell>
         <mxCell id="TuIVutbKLYxhViEwJTvp-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -79,7 +79,7 @@
             <mxPoint x="380" y="149.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TuIVutbKLYxhViEwJTvp-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Standardization&lt;div&gt;[0,1] range&lt;/div&gt;" vertex="1">
+        <mxCell id="TuIVutbKLYxhViEwJTvp-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Standardization&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;[0,1] range&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="100" y="200" as="geometry" />
         </mxCell>
         <mxCell id="TuIVutbKLYxhViEwJTvp-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
@@ -87,6 +87,9 @@
             <mxPoint x="439.5" y="260" as="sourcePoint" />
             <mxPoint x="439.5" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h4&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px; color: light-dark(rgb(116, 93, 93), rgb(237, 237, 237));&quot;&gt;&lt;i style=&quot;font-weight: normal;&quot;&gt;Proposed Workflow&lt;/i&gt;&lt;/font&gt;&lt;/h4&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="200" y="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
