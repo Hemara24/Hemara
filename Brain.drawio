@@ -1,9 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6">
   <diagram name="Page-1" id="YkmUE_-P5OMyeEjHMg7B">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TuIVutbKLYxhViEwJTvp-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Barin Tumor Dataset" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-2" edge="1" parent="1" source="TuIVutbKLYxhViEwJTvp-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="300" as="sourcePoint" />
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-28" edge="1" parent="1" source="TuIVutbKLYxhViEwJTvp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TuIVutbKLYxhViEwJTvp-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pre-process data" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ROI Selection &amp;amp; Domain Crossover" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="159.5" y="180" as="sourcePoint" />
+            <mxPoint x="159.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="159.5" y="260" as="sourcePoint" />
+            <mxPoint x="159.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Explore Features" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="159.5" y="340" as="sourcePoint" />
+            <mxPoint x="159.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Sparse Graph Construction" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="159.5" y="420" as="sourcePoint" />
+            <mxPoint x="159.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Pivoting" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="469.5" as="sourcePoint" />
+            <mxPoint x="240" y="469.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Field Detection" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.5" y="440" as="sourcePoint" />
+            <mxPoint x="299.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Cleaning" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.5" y="360" as="sourcePoint" />
+            <mxPoint x="299.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Smoothing Techniques" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.5" y="280" as="sourcePoint" />
+            <mxPoint x="299.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Transformation" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.5" y="200" as="sourcePoint" />
+            <mxPoint x="299.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Image Splitting" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="149.5" as="sourcePoint" />
+            <mxPoint x="380" y="149.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Slice Alignment" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="439.5" y="180" as="sourcePoint" />
+            <mxPoint x="439.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="439.5" y="260" as="sourcePoint" />
+            <mxPoint x="439.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="439.5" y="420" as="sourcePoint" />
+            <mxPoint x="439.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;Integration &amp;amp; Fusion&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Model Training&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GCN&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0);&quot;&gt;High-Fidelity 3D Reconstruction&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TuIVutbKLYxhViEwJTvp-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Evaluation&amp;nbsp;&lt;div&gt;Dice Score &amp;amp; Hausdorff Distance&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
